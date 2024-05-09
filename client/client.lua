@@ -1,7 +1,7 @@
 lib.addKeybind({
     name = 'private',
     description = wx.Description,
-    defaultKey = wx.Openkey,
+    defaultKey = wx.Key,
     onPressed = function(_)
         ProtectInventory()
     end
